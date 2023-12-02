@@ -30,7 +30,7 @@ jobs:
         uses: tsickert/discord-webhook@v5.3.0
         with:
           webhook-url: https://discord.com/api/webhooks/1170506735417561148/aSOW9j2jrA2P06H1L8zhvDkUEqVNzi6EubX_9FrDf4EiwP_6vDBkaHM7atnMT7gnhAc1
-          content: ":wrench: **New build started** AVAST! A new WebGL build started on `main` branch for the `suns-moons-boons project`. My Booty is Mine!"
+          content: ":wrench: **New build started** AVAST! A new WebGL build started on `main` branch for the `suns-moons-boons` project. My Booty is Mine!"
       
       # Build
       - name: Unity WebGL Build
@@ -41,6 +41,13 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           targetPlatform: WebGL
+
+      - name: Fail Notification
+        if: ${{ failure() }}
+        uses: tsickert/discord-webhook@v5.3.0
+        with:
+          webhook-url: https://discord.com/api/webhooks/1170506735417561148/aSOW9j2jrA2P06H1L8zhvDkUEqVNzi6EubX_9FrDf4EiwP_6vDBkaHM7atnMT7gnhAc1
+          content: ":x: **WebGL build failed** False alarm. I don't be needin' to play nanny now."
 
       # Output
       - uses: actions/upload-artifact@v2
