@@ -1,0 +1,12 @@
+tree.png
+size:1350,1101
+filter:Linear,Linear
+pma:true
+shadow
+bounds:1132,270,829,216
+offsets:2,3,834,222
+rotate:90
+tree
+bounds:2,2,1097,1128
+offsets:1,1,1100,1130
+rotate:90

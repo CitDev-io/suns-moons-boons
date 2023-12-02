@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1f911328fe241041bd769443387dfdb, type: 3}
+  m_Name: Boss3
+  m_EditorClassIdentifier: 
+  _Name: Rootsnarl
+  _PowerType: 0
+  _TeamType: 1
+  _PlayerClass: 0
+  ScaleBounty: 5
+  _Portrait: {fileID: 21300000, guid: 950af7f63186b7646b172179a442af1f, type: 3}
+  _Skin: {fileID: 21300000, guid: 8d57aeb40e2762c4185be4d141a119e4, type: 3}
+  _SpineSkeleton: {fileID: 11400000, guid: 5ca9d2148250d154f9241d9caca88335, type: 2}
+  _SpecialAttack: 21
+  _UltimateAbility: 20
+  _NativeBuff: 0
+  _BaseMitigation: 0
+  _BaseHP: 1500
+  _BaseSP: 850
+  _BaseAttackMin: 70
+  _BaseAttackMax: 70
+  _BaseSpecialMin: 70
+  _BaseSpecialMax: 70
+  SupportTreeLevel: 0
+  AttackTreeLevel: 0
+  IsBoss: 1
+  WaveIntroTaunt: "Well, well, look who\u2019s wandered quite near. You\u2019re either
+    very brave or foolish, my dear. Come to find children, no, trouble\u2019s what
+    you\u2019ll meet. Like those before you, your journey ends in defeat!"
+  WaveDefeatTaunt: "Defeat? No biggie. My roots are quite spry. I\u2019ll sprout
+    back in no time, no need for goodbye. Butterbelch fancied a snack, I\u2019m kind
+    so I share. He awaits you below, venture further if you dare."

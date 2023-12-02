@@ -1,0 +1,92 @@
+Rogue.png
+size:530,269
+filter:Linear,Linear
+pma:true
+arm back
+bounds:393,216,51,115
+offsets:1,0,52,115
+rotate:90
+arm front
+bounds:387,163,51,115
+offsets:0,0,52,115
+rotate:90
+bag
+bounds:282,10,51,55
+offsets:2,1,54,57
+bag strap back
+bounds:344,122,41,96
+offsets:2,1,44,99
+bag strap front
+bounds:244,67,56,90
+offsets:1,1,60,92
+rotate:90
+belt
+bounds:510,202,65,18
+offsets:1,2,67,21
+rotate:90
+buckle
+bounds:503,138,25,23
+offsets:1,1,27,25
+cape back
+bounds:2,85,136,182
+cape shoulders
+bounds:2,21,108,62
+dead
+bounds:112,67,50,16
+offsets:1,1,52,18
+face shadow
+bounds:112,2,66,63
+offsets:1,1,68,66
+hand back fist
+bounds:177,75,33,32
+offsets:1,2,35,35
+hand back grip
+bounds:140,85,35,31
+offsets:1,2,37,34
+hand front fist
+bounds:433,8,33,32
+offsets:1,2,35,35
+hand front grip
+bounds:396,13,35,31
+offsets:1,2,37,34
+hood back
+bounds:462,42,76,65
+offsets:1,9,78,75
+rotate:90
+hood front
+bounds:244,125,98,93
+offsets:8,2,107,96
+hurt
+bounds:53,6,54,13
+offsets:1,1,56,15
+knife back
+bounds:336,46,112,37
+offsets:1,1,114,39
+knife front
+bounds:387,120,114,41
+offsets:2,1,117,43
+leg back
+bounds:190,123,52,144
+leg front face left
+bounds:140,118,48,149
+offsets:1,0,49,149
+leg front face right
+bounds:244,220,47,147
+offsets:1,1,49,149
+rotate:90
+normal
+bounds:190,109,44,12
+offsets:1,1,47,14
+shadow
+bounds:336,85,124,33
+offsets:1,1,126,36
+skirt
+bounds:335,10,59,34
+offsets:1,1,61,36
+smile
+bounds:2,2,49,17
+offsets:2,1,52,19
+torso
+bounds:180,5,60,100
+offsets:0,0,61,100
+rotate:90

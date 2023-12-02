@@ -1,0 +1,12 @@
+ghost.png
+size:500,361
+filter:Linear,Linear
+pma:true
+ghost dragon
+bounds:2,2,357,424
+offsets:2,1,360,426
+rotate:90
+ghost shadow
+bounds:428,123,236,70
+offsets:1,1,239,72
+rotate:90

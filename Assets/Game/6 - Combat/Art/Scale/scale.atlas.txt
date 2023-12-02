@@ -1,0 +1,64 @@
+scale.png
+size:1343,773
+filter:Linear,Linear
+pma:true
+arm left
+bounds:373,18,305,92
+offsets:2,1,308,94
+base
+bounds:2,58,713,369
+offsets:2,1,717,371
+rotate:90
+left orb 1
+bounds:1093,16,136,132
+offsets:9,9,154,150
+rotate:90
+left orb 2
+bounds:958,16,136,133
+offsets:9,9,154,150
+rotate:90
+moon 1 cover
+bounds:863,438,333,239
+offsets:1,2,335,242
+rotate:90
+moon 2 cover
+bounds:718,96,238,336
+offsets:2,1,241,339
+moon eye closed
+bounds:2,19,17,15
+offsets:1,2,19,18
+rotate:90
+moon eye open
+bounds:19,22,14,14
+offsets:1,1,16,16
+mounttain
+bounds:373,112,659,249
+offsets:1,1,661,251
+rotate:90
+right arm
+bounds:624,127,305,92
+offsets:1,1,308,94
+rotate:90
+right orb 1
+bounds:958,296,140,140
+offsets:9,5,158,150
+right orb 2
+bounds:958,154,140,140
+offsets:9,9,158,158
+sun 1 cover
+bounds:1104,441,330,237
+offsets:1,1,332,239
+rotate:90
+sun 2 cover
+bounds:624,434,237,337
+offsets:1,1,239,339
+sun eye closed
+bounds:2,2,65,15
+offsets:1,1,67,17
+sun eye open
+bounds:2,38,61,18
+offsets:1,1,63,20
+sunmoon
+bounds:1104,224,215,233
+offsets:1,1,217,235
+rotate:90
