@@ -71,7 +71,7 @@ public class AbilityCurseOfStrength : Effect
             if (RandomEnemy != null) {
                 bool ElementalWeaknessLands = TryChance(25);
                 if (ElementalWeaknessLands) {
-                    Buff ewDebuff = new BuffElementalWeakness(source, target, 1);
+                    Buff ewDebuff = new BuffElementalWeakness(source, Afflicted, 1);
                     _e.Add(ewDebuff);
                 }
             }
